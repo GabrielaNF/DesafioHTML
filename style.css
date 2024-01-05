@@ -1,0 +1,219 @@
+* {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+}
+
+hr {
+  background-color: #a5a1a1;
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 94px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.star {
+  display: block;
+  align-items: center;
+  align-content: center;
+  width: 100px;
+}
+
+.star img {
+  align-content: center;
+  align-items: center;
+}
+
+.usuario {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 138.09px;
+  height: 23.78px;
+  float: right;
+}
+
+.offer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 375px;
+  overflow: hidden;
+}
+
+.offer img {
+	width: 100%;
+}
+
+
+.maior-titulos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 3rem;
+  height: 80px;
+}
+
+.esquerda-titulo {
+  color: #161616;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.direita-titulo h1 {
+  font-weight: 400;
+  font-size: 18px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.direita-titulo {
+  color: #161616;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.imagens {
+  height: 100%;
+  padding: 0 3rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-top: 57px;
+  margin-bottom: 116px;
+  gap: 4rem 14rem;
+}
+
+@media only screen and (max-width: 710px) {
+  .imagens {
+    justify-content: center;
+  }
+}
+
+.item {
+  height: 393px;
+  width: 303px;
+}
+
+.item h1 {
+	font-size: 23px;
+}
+
+.item-img {
+  width: 100%;
+  height: 303px;
+  object-fit: cover;
+  margin-bottom: 1.2rem;
+}
+
+.preco {
+	display: flex;
+	gap: 8px;
+}
+
+.valor-item {
+	color: #5ca720;
+}
+
+.fim {
+  background-color: #f9f9f9;
+  padding: 0 3rem;
+}
+
+.infos {
+  display: flex;
+  justify-content: space-between;
+  height: 216px;
+}
+
+.infos-esq {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.infos-esq a {
+  text-decoration: none;
+  color: #161616;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 0.3rem;
+}
+
+.infos-dir {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.news {
+  font-size: 1.7rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.email img {
+  object-fit: cover;
+  display: flex;
+  flex-direction: raw;
+  flex-flow: row wrap;
+  /* flex-flow: row wrap;  (tem como quebrar a imagem separand os botoes de escrever e enviar?*/
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+}
+
+form input {
+  padding: 0.8rem;
+  border-radius: 5px 0 0 5px;
+  border: 1px solid #a5a1a1;
+}
+
+button {
+  background-color: #5ca720;
+  color: white;
+  padding: 0.8rem;
+  border-radius: 0 5px 5px 0;
+  border: none;
+}
+
+@media only screen and (max-width: 710px) {
+  .buttom {
+    justify-content: center;
+  }
+}
+.rodape {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #f9f9f9;
+  height: 132;
+}
+
+.redes img {
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  margin: 1rem;
+}
+
+.cartoes img {
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  margin: 1rem;
+}
